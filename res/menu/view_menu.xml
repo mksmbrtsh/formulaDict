@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/help_article"
+        android:showAsAction="always"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_help_article"
+        android:title="@string/help_article"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="2"
+        android:title="@string/share">
+    </item>
+    <item
+        android:id="@+id/question"
+        android:icon="@drawable/ic_feetback"
+        android:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="@string/question"/>
+    <item
+        android:id="@+id/preference"
+        android:orderInCategory="4"
+        android:title="@string/preference"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="5"
+        android:title="@string/about"/>
+
+</menu>

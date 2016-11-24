@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
+<!--
+    <color name="dark_main_gradient">#1A237E</color>
+    <color name="middle_main_gradient">#283593</color>
+    <color name="light_main_gradient">#3949AB</color>
+    <color name="chapter_background_with_alpha">#663F51B5</color>
+    <color name="fab_colorNormal">#1A237E</color>
+    <color name="fab_colorPressed">#3949AB</color>
+    <color name="fab_colorRipple">#283593</color>
+    <color name="error_text">#FFFF0000</color>
+    <color name="background_find_text">#FFFF00</color>
+    <color name="formula_text">#FF0000FF</color>
+-->
+
+<color name="dark_main_gradient">#1B5E20</color>
+    <color name="middle_main_gradient">#2E7D32</color>
+    <color name="light_main_gradient">#388E3C</color>
+    <color name="chapter_background_with_alpha">#9966BB6A</color>
+    <color name="fab_colorNormal">#1B5E20</color>
+    <color name="fab_colorPressed">#2E7D32</color>
+    <color name="fab_colorRipple">#388E3C</color>
+    <color name="error_text">#E64A19</color>
+    <color name="background_find_text">#FFFF00</color>
+    <color name="formula_text">#191970</color>
+    <color name="formula_graphics">#212121</color>
+    <color name="item_background_with_alpa">#99C8E6C9</color>
+    <color name="dialog_title_background">#FFC8E6C9</color>
+</resources>

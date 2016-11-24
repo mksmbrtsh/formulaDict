@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/help_article"
+        android:icon="@drawable/ic_help_article"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:visible="false"
+        android:title="@string/help_article"/>
+    <item
+        android:id="@+id/edit"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/ic_edit"
+        android:orderInCategory="3"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="4"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="5"
+        android:title="save"
+        android:visible="false"/>
+    <item
+        android:id="@+id/preference"
+        android:orderInCategory="6"
+        android:title="@string/preference"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="7"
+        android:title="@string/about"/>
+
+</menu>

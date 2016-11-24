@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="parentheses" type="id"></item>
+    <item name="square_brackets" type="id"></item>
+    <item name="vertical_brackets" type="id"></item>
+    <item name="inequality_signs" type="id"></item>
+    <item name="times" type="id"></item>
+    <item name="cdot" type="id"></item>
+    <item name="ast" type="id"></item>
+    
+    <item name="more" type="id"></item>
+    <item name="less" type="id"></item>
+    <item name="leqslant" type="id"></item>
+    <item name="geqslant" type="id"></item>
+    <item name="equiv" type="id"></item>
+    <item name="comma" type="id"></item>
+    <item name="dot" type="id"></item>  
+    <item name="superscript" type="id"></item>  
+    <item name="subscript" type="id"></item>  
+    
+    <item name="article_edit" type="id"></item>
+    <item name="article_delete" type="id"></item>
+    <item name="chapter_edit" type="id"></item>
+    <item name="chapter_delete" type="id"></item>
+    <item name="chapter_add" type="id"></item>
+</resources>

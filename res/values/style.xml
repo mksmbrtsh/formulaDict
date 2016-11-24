@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+ <!--        <item name="android:autoCompleteTextViewStyle">@style/cursorColor</item> --> 
+        <item name="android:popupMenuStyle">@style/MyDropDownNav</item>
+        <item name="android:alertDialogTheme">@style/MyAlertDialogTheme</item>
+        <item name="android:alertDialogStyle">@style/MyAlertDialogStyle</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextAppearance</item>
+    </style>
+
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_settings</item>
+    </style>
+<!--
+    <style name="cursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+--> 
+    <!-- стиль для списка -->
+    <style name="MyDropDownNav" parent="android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/navigation_fill_gradient</item>
+    </style>
+    <!-- Change Overflow Menu ListView Text Size and Text Size -->
+    <style name="PopupMenuTextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyAlertDialogTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/MyDialogWindowTitle</item>
+    </style>
+
+    <style name="MyDialogWindowTitle">
+
+        <!-- Set text size and color of title and message here -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+<style name="MyBorderlessButton">
+    <!-- Set background drawable and text size of the buttons here -->
+    <!--  <item name="android:background">@drawable/main_fill_gradient</item> -->
+    <item name="android:textColor">@android:color/white</item>
+</style>
+<style name="MyAlertTextAppearance">
+    <!-- Set text size and color of title and message here -->
+    <item name="android:textColor">@android:color/white</item>
+</style>
+
+    <style name="MyAlertDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:windowIsFloating">true</item>
+         <item name="android:buttonBarButtonStyle">@style/MyBorderlessButton</item>
+        <!--
+         If you don't want your own button bar style use
+            
+            and
+            
+         instead of @style/MyButtonBar and @style/MyBorderlessButton
+        
+        <item name="android:buttonBarStyle">@android:style/Holo.Light.ButtonBar.AlertDialog</item>
+        <item name="android:buttonBarButtonStyle">?android:attr/borderlessButtonStyle</item>-->
+    </style>
+
+    <style name="MyAlertDialogStyle">
+        <!-- Define background colors of title, message, buttons, etc. here -->
+        <item name="android:fullDark">@android:color/white</item>
+        <item name="android:topDark">@drawable/main_fill_gradient</item>
+        <item name="android:centerDark">@android:color/white</item>
+        <item name="android:bottomDark">@color/dark_main_gradient</item>
+        <item name="android:fullBright">@android:color/white</item>
+        <item name="android:topBright">@drawable/main_fill_gradient</item>
+        <item name="android:centerBright">@android:color/white</item>
+        <item name="android:bottomBright">@color/dark_main_gradient</item>
+        <item name="android:bottomMedium">@color/dark_main_gradient</item>
+        <item name="android:centerMedium">@android:color/white</item>
+    </style>
+    
+<style name="SplashTheme" parent="android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+    
+</resources>

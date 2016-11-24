@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Шпаргалка-справочник</string>
+    <string name="app_name_text">Приложение - помошник школьника и студента.</string>
+    <string name="about_text">Вопросы, предложения (может быть и идеи-материалы шпаргалок, было бы здорово!) пишите на мою почту: <a href="mailto:mksmbtrsh@gmail.com">Maksim Bartosh</a>\n\nИстория создания\nПриложение есть электронная версия моей шпаргалки. Сама шпаргалка созданна мной для себя в 2001 году на основе запиской книжки (версия 1.0 со школьными курсами математики, физики и геометрии).\nВ 2002 году была сделана версия 2.0, добавлены разделы мат. анализа и анал. геометрии.\nВ 2015 году мной была портирована свободная библиотека для отрисовки формул, записанных в виде LaTeX на ОС андроид <a href="https://github.com/mksmbrtsh/jlatexmath-android">jlatexmath-android</a>\nВ 2016 году был написан примитивный редактор формул. С его помощью начата работа над заполнением базы данных.\nБаза данных содержит практические знания для решения большинства задач школьного и вузовского курса обучений.\nЭто не решебник, не учебник. Для использования приложением у пользователя должны быть теоретические и практические знания, с опытом решения задач.\nГрафические материалы были отрисованы Anna Bartosh, ей же разработан весь UI.\nПриложение использует свободную библиотеку для SVG-графики <a href="https://github.com/senkir/androidsvg">androidsvg</a>\n\n<b>Полная версия включает в себя кроме отключения рекламы ещё и редактор формул с возможностью сохранения в виде LaTeX-строки.</b>
+ </string>
+    <string name="textsize">size:</string>
+
+    <string-array name="text_size_array">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+
+    <string name="load">Загрузить</string>
+    <string name="save">Сохранить</string>
+    <string name="no_data">Нет данных</string>
+    <string name="cant_read_folder">Не могу открыть директорию!</string>
+    <string name="location">Путь</string>
+    <string name="select_path">Выбранный путь</string>
+    <string name="error_cr_file">Ошибка создания файла</string>
+    <string name="error_open_file">Ошибка открытия файла</string>
+    <string name="error_write_file">Ошибка записи файла</string>
+    <string name="error_close_file">Ошибка закрытия файла</string>
+    <string name="create_file">Создание файла</string>
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+    <string name="full_app_name">Справочник для школьника и студента</string>
+    <string name="version">версия</string>
+    <string name="text_size_pref">Размер шрифта</string>
+    <string name="text_size_pref_summary">который используется в формулах</string>
+    <string name="preference">Настройки</string>
+    <string name="share">Отправить</string>
+    <string name="about">О программе</string>
+    <string name="question">Обратная связь</string>
+    <string name="enter_your_offer">Введите ваше предложение по этому разделу</string>
+    <string name="search_hint">Введите текст..</string>
+    <string name="help_article">Справка</string>
+    <string name="help_descriptor">Содержание</string>
+    <string name="new_chapter">Новая категория</string>
+    <string name="remove">Удалить</string>
+    <string name="err_del_not_empty_group">Ошибка. Удаление возможно только пустой категории!</string>
+    <string name="error_create_row_dialog">Ошибка сохранения</string>
+    <string name="close_not_save">Закрыть</string>
+    <string name="title_not_set">Название формулы не должно быть пустым</string>
+    <string name="description_not_set">Формула не может быть пустой</string>
+    <string name="only_comment_not_save">Нельзя сохранить только справку к формуле</string>
+    <string name="enter_name_formula">Введите название формулы..</string>
+    <string name="title_chapter_not_set">Название категории не может быть пустым</string>
+    <string name="edit">Редактирование</string>
+    <string name="search">Поиск</string>
+    <string name="big_width">Большая ширина!</string>
+    <string name="big_heigth">Большая высота!</string>
+    <string name="billing_service_not_enabled">In-app billing сервис недоступен, пожалуйства обновите Android Market/Play до версии >= 3.9.16</string>
+    <string name="on_billing_error">Ошибка оплаты</string>
+    <string name="BILLING_RESPONSE_RESULT_SERVICE_UNAVAILABLE">нет соединения с Интернетом</string>
+	<string name="BILLING_RESPONSE_RESULT_BILLING_UNAVAILABLE">billing API version не поддерживается</string>
+	<string name="BILLING_RESPONSE_RESULT_ITEM_UNAVAILABLE">эта позиция более не доступна для покупки</string>
+	<string name="BILLING_RESPONSE_RESULT_ERROR">фатальная ошибка во время выполнения</string>
+	<string name="BILLING_RESPONSE_RESULT_ITEM_ALREADY_OWNED">данная позиция уже была приобретена</string>
+	<string name="get_full_version">Получить полную версию</string>
+	<string name="enabled_on_full_version">Создание своих формул доступно только в полной версии</string>
+	<string name="please_get_full_version">Для создания, редактирования и сохранения своих формул, купите полную версию приложения, спасибо!</string>
+	<string name="add_new_formuls_in_edit_mod">Для создания формул войдите в режим редактирования в меню,\n потом нажмите кнопку плюс</string>
+</resources>

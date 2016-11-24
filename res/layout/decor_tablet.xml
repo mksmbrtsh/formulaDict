@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_fill_gradient" >
+
+    <maximsblog.blogspot.com.formuladict.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/navigation_drawer"
+            class="maximsblog.blogspot.com.formuladict.NavigationDrawerFragment"
+            android:layout_width="@dimen/navigation_drawer_width_tablet"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+        <FrameLayout
+            android:id="@+id/drawer_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/navigation_drawer_width_tablet"
+            android:orientation="vertical" >
+        </FrameLayout>
+    </maximsblog.blogspot.com.formuladict.DrawerLayout>
+</FrameLayout>
